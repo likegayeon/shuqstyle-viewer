@@ -1,0 +1,17 @@
+{
+  "name": "DeepLook Search",
+  "description": "DeepLook Development version",
+  "version": "0.0.1",
+  "permissions": ["contextMenus", "tabs", "storage"],
+  "browser_action": {
+      "default_icon": "extension/icon.png",
+      "default_popup": "extension/setting.html"
+  },
+  "background": {
+    "scripts": ["extension/script.js", "js/api.js", "js/app.view.js", "js/shuqstyle-compat.js", "js/ui.js", "js/utils.js",
+    "js/3rdparty/cropper.js", "js/3rdparty/ftscroller.js", "js/3rdparty/goalProgress.min.js",
+    "js/3rdparty/imagesloaded.pkgd.js", "js/3rdparty/masonry.pkgd.js", "js/3rdparty/URI.js"]
+  },
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}
