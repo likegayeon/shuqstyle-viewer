@@ -109,6 +109,10 @@ $(document).ready(function() {
     var params = uri.search(true);
     var type = params["type"];
     var apikey = params["apikey"];
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3a873f49cac1bf35289722ba943c70fa5736a85b
     var image_url = undefined;
 
     if (apikey !== undefined)
