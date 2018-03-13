@@ -12,6 +12,10 @@
     "js/3rdparty/cropper.js", "js/3rdparty/ftscroller.js", "js/3rdparty/goalProgress.min.js",
     "js/3rdparty/imagesloaded.pkgd.js", "js/3rdparty/masonry.pkgd.js", "js/3rdparty/URI.js"]
   },
+<<<<<<< HEAD
   "manifest_version": 2,
   "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+=======
+  "manifest_version": 2
+>>>>>>> f0974cb2b315d4e1993d8409cf0897345f8d4e48
 }
