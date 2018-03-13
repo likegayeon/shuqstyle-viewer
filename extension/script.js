@@ -2,15 +2,9 @@
 chrome.contextMenus.create({
     title: "DeepLook Search",
     contexts:["image"],
-<<<<<<< HEAD
     onclick: (info) => {
         let image_url = encodeURIComponent(info.srcUrl);
         let apiKey = window.localStorage.getItem("apikey");
-=======
-    onclick: function(info) {
-        var image_url = encodeURIComponent(info.srcUrl);
-        var apiKey = window.localStorage.getItem("apikey");
->>>>>>> f0974cb2b315d4e1993d8409cf0897345f8d4e48
 
         alert(apiKey);
 
@@ -20,7 +14,6 @@ chrome.contextMenus.create({
         },  ()=> {
 
         });
-<<<<<<< HEAD
       }
 });
 
@@ -32,17 +25,6 @@ $(document).ready(function() {
       }
     });
   });
-=======
-    }
-});
-
-// 로컬 스토리지에 key 저장
-document.getElementById("save").addEventListener("click", function()
-  {
-    var key = document.getElementById("keyInfo").value;
-    window.localStorage.setItem("apikey", key);
-  }, false);
->>>>>>> f0974cb2b315d4e1993d8409cf0897345f8d4e48
 
 // 넣어 놓은 key 값 확인
 var input_key = window.localStorage.getItem("apikey");
