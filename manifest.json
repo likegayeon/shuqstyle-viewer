@@ -4,8 +4,8 @@
   "version": "0.0.1",
   "permissions": ["contextMenus", "tabs", "storage"],
   "browser_action": {
-      "default_icon": "extension/icon.png",
-      "default_popup": "extension/setting.html"
+    "default_icon": "extension/icon.png",
+    "default_popup": "extension/setting.html"
   },
   "background": {
     "scripts": ["extension/script.js", "js/api.js", "js/app.view.js", "js/shuqstyle-compat.js", "js/ui.js", "js/utils.js",
